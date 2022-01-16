@@ -3,7 +3,7 @@ ArrayOperations operations = new ArrayOperations();
 int[] n = new int[5]{4,9,3,2,1};
 System.Console.WriteLine("Array Original:");
 operations.PrintArray(n);
-operations.BlubleSortOrder(ref n);
+Array.Sort(n);
 System.Console.WriteLine("Array ordenado:");
 operations.PrintArray(n);
 
