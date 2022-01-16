@@ -5,6 +5,7 @@ ListOperator op = new ListOperator();
 
 op.PrintList(states);
 System.Console.WriteLine("----------");
+states.Insert(1, "RJ");
 states.Remove("BA");
 states.AddRange(s1);
 op.PrintList(states);
