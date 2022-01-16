@@ -2,6 +2,10 @@ namespace Collections.Helper
 {
     public class ArrayOperations
     {
+        public void PrintArray(int[] collection){
+            var line = string.Join(", ", collection);
+            System.Console.WriteLine(line);
+        }
         public void ArrayImpress(int[] collection){foreach (int item in collection){System.Console.WriteLine(item);}}
         public void BlubleSortOrder(ref int[] collection){
             int temp;
