@@ -1,12 +1,12 @@
 ﻿using Collections.Helper;
 ArrayOperations operations = new ArrayOperations();
 int[] n = new int[5]{4,9,3,2,7};
-
-operations.VerificAllLarger(n,10);
-operations.VerificAllSmaler(n,1);
-System.Console.WriteLine("----------------------------");
-operations.VerificAllLarger(n,1);
-operations.VerificAllSmaler(n,10);
+System.Console.WriteLine(Array.IndexOf(n,9));
+// operations.VerificAllLarger(n,10);
+// operations.VerificAllSmaler(n,1);
+// System.Console.WriteLine("----------------------------");
+// operations.VerificAllLarger(n,1);
+// operations.VerificAllSmaler(n,10);
 
 // operations.VerificExist(n,9);
 
