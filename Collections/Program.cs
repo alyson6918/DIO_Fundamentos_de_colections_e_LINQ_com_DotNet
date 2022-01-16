@@ -1,7 +1,8 @@
 ﻿using Collections.Helper;
 List<string> states = new List<string>();
+ListOperator op = new ListOperator();
 states.Add("SP");
 states.Add("MG");
 states.Add("BA");
-System.Console.WriteLine($"Quantidade de elementos na lista: {states.Count}");
-foreach (var item in states){System.Console.WriteLine(item);}
+op.PrintList(states);
+states.Remove("MG");
