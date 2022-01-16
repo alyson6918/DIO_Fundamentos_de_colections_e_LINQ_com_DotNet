@@ -21,5 +21,9 @@ namespace Collections.Helper
                 }
             }
         }
+        public void VerificExist(int[] a, int n1){
+            if(Array.Exists(a,element => element == n1))System.Console.WriteLine($"O valor {n1} existe no array");
+            else System.Console.WriteLine("O array não possue o valor mencionado");
+        }
     }
 }

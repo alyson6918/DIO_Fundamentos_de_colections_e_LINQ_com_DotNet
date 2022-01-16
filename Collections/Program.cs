@@ -1,10 +1,12 @@
 ﻿using Collections.Helper;
 ArrayOperations operations = new ArrayOperations();
 int[] n = new int[5]{4,9,3,2,1};
-Array.Sort(n);
-int[] n1 = new int[10];
-Array.Copy(n,n1,n.Length);
-operations.PrintArray(n1);
+operations.VerificExist(n,9);
+
+// Array.Sort(n);
+// int[] n1 = new int[10];
+// Array.Copy(n,n1,n.Length);
+// operations.PrintArray(n1);
 
 // System.Console.WriteLine("Array Original:");
 // operations.PrintArray(n);
