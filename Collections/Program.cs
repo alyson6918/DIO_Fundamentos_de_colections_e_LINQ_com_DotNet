@@ -1,11 +1,8 @@
 ﻿using Collections.Helper;
-Dictionary<string, string> states = new Dictionary<string, string>();
-states.Add("SP", "São Paulo");
-states.Add("RJ", "Rio De Janeiro");
-states.Add("MG", "Minas Gerais");
+int[] arrayNumbers = new int[5]{1,4,6,7,3};
+var numPar = from num in arrayNumbers where num % 2 == 0 orderby num select num;
+var numParByMethody = arrayNumbers.Where(n => n % 2 == 0).OrderBy(n => n).ToList();
 
-foreach (KeyValuePair<string, string> item in states)
-{
-    System.Console.WriteLine($"Chave: {item.Key}, valor: {item.Value}");
-}
-System.Console.WriteLine(states["SP"]);
+System.Console.WriteLine($"Numeros pares metodo: {string.Join(", ", numParByMethody)}");
+System.Console.WriteLine("---------------------");
+System.Console.WriteLine($"Numeros pares Query: {string.Join(", ", numPar)}");
