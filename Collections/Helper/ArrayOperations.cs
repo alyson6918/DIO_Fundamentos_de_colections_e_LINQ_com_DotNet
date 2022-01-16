@@ -25,5 +25,13 @@ namespace Collections.Helper
             if(Array.Exists(a,element => element == n1))System.Console.WriteLine($"O valor {n1} existe no array");
             else System.Console.WriteLine("O array não possue o valor mencionado");
         }
+        public void VerificAllLarger(int[] a, int n1){
+            if(Array.TrueForAll(a, element => element < n1))System.Console.WriteLine("o valor mencionado é maior que todos os valores do array");
+            else System.Console.WriteLine("O valor mencionado não é maior que todos os outros valores no array");
+        }
+        public void VerificAllSmaler(int[] a, int n1){
+            if(Array.TrueForAll(a, element => element > n1))System.Console.WriteLine("o valor mencionado é menor que todos os valores do array");
+            else System.Console.WriteLine("O valor mencionado não é menor que todos os outros valores no array");
+        }
     }
 }
