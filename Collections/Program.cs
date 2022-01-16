@@ -1,8 +1,10 @@
 ﻿using Collections.Helper;
-List<string> states = new List<string>();
+List<string> states = new List<string>{"SP", "MG", "BA"};
+string[] s1 = new string[2]{"SC","MT"};
 ListOperator op = new ListOperator();
-states.Add("SP");
-states.Add("MG");
-states.Add("BA");
+
 op.PrintList(states);
-states.Remove("MG");
+System.Console.WriteLine("----------");
+states.Remove("BA");
+states.AddRange(s1);
+op.PrintList(states);
