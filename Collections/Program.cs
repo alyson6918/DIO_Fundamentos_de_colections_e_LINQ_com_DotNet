@@ -1,8 +1,11 @@
 ﻿using Collections.Helper;
 ArrayOperations operations = new ArrayOperations();
 int[] n = new int[5]{4,9,3,2,7};
-Array.Resize(ref n,10);
-operations.PrintArray(n);
+System.Console.WriteLine(n.GetType());
+string[] s = Array.ConvertAll(n, element=>element.ToString());
+
+System.Console.WriteLine(s.GetType());
+
 // operations.VerificAllLarger(n,10);
 // operations.VerificAllSmaler(n,1);
 // System.Console.WriteLine("----------------------------");
