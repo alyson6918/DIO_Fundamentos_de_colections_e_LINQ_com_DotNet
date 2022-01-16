@@ -1,0 +1,15 @@
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\bin\Debug\net6.0\Collections.exe
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\bin\Debug\net6.0\Collections.deps.json
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\bin\Debug\net6.0\Collections.runtimeconfig.json
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\bin\Debug\net6.0\Collections.dll
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\bin\Debug\net6.0\ref\Collections.dll
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\bin\Debug\net6.0\Collections.pdb
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\obj\Debug\net6.0\Collections.csproj.AssemblyReference.cache
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\obj\Debug\net6.0\Collections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\obj\Debug\net6.0\Collections.AssemblyInfoInputs.cache
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\obj\Debug\net6.0\Collections.AssemblyInfo.cs
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\obj\Debug\net6.0\Collections.csproj.CoreCompileInputs.cache
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\obj\Debug\net6.0\Collections.dll
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\obj\Debug\net6.0\ref\Collections.dll
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\obj\Debug\net6.0\Collections.pdb
+C:\Users\alyso\Documents\Workspace\DIO\RepositoriosGit\ProjExemploCollections\Collections\obj\Debug\net6.0\Collections.genruntimeconfig.cache
